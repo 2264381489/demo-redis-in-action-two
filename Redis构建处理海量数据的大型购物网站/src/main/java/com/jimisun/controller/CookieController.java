@@ -139,4 +139,9 @@ public class CookieController {
         System.out.println("新的功能");
     }
 
+    public static  void Box(){
+        System.out.println("生产一个新的盒子");
+    }
+
+
 }
