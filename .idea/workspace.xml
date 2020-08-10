@@ -18,7 +18,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6431ff4-0a02-4511-baa5-62b4fccf27e2" name="Default Changelist" comment="开始git flow测试 develop2" />
+    <list default="true" id="b6431ff4-0a02-4511-baa5-62b4fccf27e2" name="Default Changelist" comment="开始git flow测试 develop2">
+      <change beforePath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/CookieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/CookieController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
