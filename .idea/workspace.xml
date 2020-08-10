@@ -65,7 +65,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Spring Boot.DemoRedisInActionApplication">
     <configuration name="CookieController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -166,7 +166,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -228,10 +235,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1597053179262" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1597052511179">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1597063324099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597052511179" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597063324099" />
     <state width="604" height="446" key="SwitcherDM" timestamp="1596939428262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -240,6 +247,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1597052355790" />
+    <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597059272123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597059272123" />
     <state x="57" y="0" key="new project wizard" timestamp="1596933356837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

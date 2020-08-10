@@ -141,4 +141,11 @@ public class CookieController {
     public void newFeature(){
         System.out.println("新开发的功能");
     }
+    public void newGitFlow(){
+        System.out.println("最新的开发功能 8/10");
+    }
+    public void newGitFlow2(){
+        System.out.println("我已经添加完了功能，看看下一步！" +
+                "");
+    }
 }
