@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<di>
+    <span th:if="${result}!=null" th:text="${result}" style="color: red"></span>
+</di>
+<div style="float: left;width: 50%">
+    <span style="font-size: 30px">文章列表</span> &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a th:href="@{/article/getArticleList(order=score)}" th:text="精华">被链接内容</a>
+    <a th:href="@{/article/getArticleList(order=time)}" th:text="按最新">被链接内容</a>
+    <br>
+    <br>
+    <tr th:each="article:${articleArrayList}">
+
+        标题：
+        <a th:href="@{${article.link}}" target="_blank" th:text="${article.title}">被链接内容</a> &nbsp;&nbsp;支持者：<span
+            th:text="${article.getVotes()}"></span>&nbsp;&nbsp;反对者：<span
+            th:text="${article.getOpposeVotes()}"></span>
+        <br>&nbsp;&nbsp;所属分组：<a
+            th:href="@{/article/getGroupArticleList(group=${article.getGroup()})}"><span
+            th:text="${article.getGroup()}"></span></a>
+        <br>
+        时间：
+        <td th:text="${article.time}"></td>
+        用户：
+        <td th:text="${article.getUser().getUsername()}"></td>
+        <a th:href="@{/article/articleVote(articleId=${article.id},tag=0)}" th:text="投支持票"></a> &nbsp;&nbsp; <a
+            th:href="@{/article/articleVote(articleId=${article.id},tag=1)}" th:text="反对"></a>
+        <br>
+        <br>
+    </tr>
+    <div class="col-md-12 column">
+        <ul class="pagination  pull-right">
+
+            <!--显示上一页-->
+
+            <li><a href=""
+                   th:href="@{/article/getArticleList(order=${order})}">上一页</a>
+            </li>
+
+            <!--显示下一页-->
+            <li><a href=""
+                   th:href="@{/article/getArticleList(order=${order})}">下一页</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div style="float: right;width: 30%">
+    <h3>添加文章</h3>
+    <form action="/article/addArticle" method="post">
+        <br>标题：<input name="title" type="text">
+        <br>所链接：<input name="link" type="text">
+        <br>所属组：<input name="group" type="text">
+        <br>提交：<input type="submit">
+    </form>
+</div>
+
+
+</body>
+</html>

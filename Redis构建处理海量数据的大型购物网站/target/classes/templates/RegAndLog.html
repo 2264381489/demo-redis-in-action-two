@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <h3 th:text="${result}" style="color: red;text-align:center;margin-bottom: 100px" ;></h3>
+    <div style="text-align: center;margin: 50px">
+        您曾在一下IP登录过: &nbsp;<span th:each="recent:${record}">
+        <span th:text="${recent}">&nbsp;&nbsp;&nbsp;</span>
+    </span>
+        <br>
+        最近浏览: &nbsp;<span th:each="url:${URLList}">
+        <span th:text="${url}">&nbsp;&nbsp;&nbsp;</span>
+    </span>
+    </div>
+</div>
+<div style="float: left;width: 50%;height: auto;text-align: center">
+    <h2 style="color: black">用户登录</h2>
+    <form action="/cookie/login" method="post">
+        <input name="username" th:label="账户名" type="text">
+        <input name="password" th:label="密码" type="password">
+        <br>
+        或者使用Token登录
+        <br>
+        <input name="token" th:label="token" type="text">
+        <input type="submit" th:value="登录">
+    </form>
+</div>
+
+<div style="float: left;width: 50%;height: auto;text-align: center">
+    <h2 style="color: black">用户注册</h2>
+    <form action="/cookie/register" method="post">
+        <input name="username" th:label="账户名" type="text">
+        <input name="password" th:label="密码" type="password">
+        <input type="submit" th:value="注册">
+    </form>
+</div>
+</body>
+</html>

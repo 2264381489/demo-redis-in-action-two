@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div style="text-align: center;float: left;width: 50%">
+
+    <div>
+        <h4>商品:无敌piupiu枪</h4>
+        <span>简介:无敌piupiu枪无敌piupiu枪无敌piupiu枪无敌piupiu枪无敌piupiu枪无敌piupiu枪</span>
+        <br>
+        <span style="color: red"><a href="/cart/addCart?productName=无敌piupiu枪&Number=1"> 加入购物车</a></span> &nbsp; <span
+            style="color: red"><a href="/cart/addCart?productName=无敌piupiu枪&Number=0"> 从购物车删除!</a></span>
+    </div>
+    <div>
+        <h4>商品:无敌piupiu衣服</h4>
+        <span>简介:无敌piupiu衣服无敌piupiu衣服无敌piupiu衣服无敌piupiu衣服无敌piupiu衣服</span>
+        <br>
+        <span style="color: red"><a href="/cart/addCart?productName=无敌piupiu衣服&Number=1"> 加入购物车</a></span>&nbsp; <span
+            style="color: red"><a href="/cart/addCart?productName=无敌piupiu衣服&Number=0"> 从购物车删除!</a></span>
+    </div>
+    <div>
+        <h4>商品:无敌piupiu头盔</h4>
+        <span>简介:无敌piupiu头盔无敌piupiu头盔无敌piupiu头盔无敌piupiu头盔无敌piupiu头盔</span>
+        <br>
+        <span style="color: red"><a href="/cart/addCart?productName=无敌piupiu头盔&Number=1"> 加入购物车</a></span>&nbsp; <span
+            style="color: red"><a href="/cart/addCart?productName=无敌piupiu头盔&Number=0"> 从购物车删除!</a></span>
+    </div>
+    <div>
+        <h4>商品:无敌piupiu鞋子</h4>
+        <span>简介:我就是这么与众不同</span>
+        <br>
+        <span style="color: red"><a href="/cart/addCart?productName=无敌piupiu鞋子&Number=1"> 加入购物车</a></span>&nbsp; <span
+            style="color: red"><a href="/cart/addCart?productName=无敌piupiu鞋子&Number=0"> 从购物车删除!</a></span>
+    </div>
+
+
+</div>
+
+<div style="text-align: center;float: left;width: 30%">
+    您的购物车信息如下:
+    <br>
+    <span th:each="cart:${cartList}">
+        <span th:text="${cart.getKey()}"></span>---<span th:text="${cart.getValue()}"></span><br>
+    </span>
+
+</div>
+
+</body>
+</html>

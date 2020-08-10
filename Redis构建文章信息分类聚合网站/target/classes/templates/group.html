@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div style="float: left;width: 50%">
+
+    <h3 th:text="${group}+分组列表">分组列表</h3>
+    <a th:href="@{/article/getGroupArticleList(group=${group},order=score)}" th:text="精华">被链接内容</a>
+    <a th:href="@{/article/getGroupArticleList(group=${group},order=time)}" th:text="按最新">被链接内容</a>
+    <br>
+    <tr th:each="article:${groupArticles}">
+
+        标题：
+        <a th:href="@{${article.link}}" target="_blank" th:text="${article.title}">被链接内容</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;支持者：<span
+            th:text="${article.getVotes()}"></span>&nbsp;&nbsp;反对者：<span
+            th:text="${article.getOpposeVotes()}"></span>
+        <br>
+        时间：
+        <td th:text="${article.time}"></td>
+        用户：
+        <td th:text="${article.getUser().getUsername()}"></td>
+        <a th:href="@{/article/articleVote(articleId=${article.id})}" th:text="投支持票"></a> &nbsp;&nbsp; <a
+            th:href="@{/article/articleVote(articleId=${article.id},tag=1)}" th:text="反对！"></a>
+        <br>
+        <br>
+    </tr>
+    <div class="col-md-12 column">
+        <ul class="pagination  pull-right">
+
+            <!--显示上一页-->
+
+            <li><a href=""
+                   th:href="@{/article/getGroupArticleList(group=${group},order=${order},page=${page-1})}">上一页</a>
+            </li>
+
+            <!--显示下一页-->
+            <li><a href=""
+                   th:href="@{/article/getGroupArticleList(group=${group},order=${order},page=${page+1})}">下一页</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div style="float: right;width: 30%">
+    <br>
+    <h2><a href="/article/getArticleList">返回首页</a></h2>
+</div>
+
+</body>
+</html>
