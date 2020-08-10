@@ -134,5 +134,8 @@ public class CookieController {
         return request.getRequestURI();
     }
 
+    public void gitFlowTest(){
+        System.out.println("对于");
+    }
 
 }
