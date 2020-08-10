@@ -13,10 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6431ff4-0a02-4511-baa5-62b4fccf27e2" name="Default Changelist" comment="开始git flow测试 develop2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/CookieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/CookieController.java" afterDir="false" />
-    </list>
+    <list default="true" id="b6431ff4-0a02-4511-baa5-62b4fccf27e2" name="Default Changelist" comment="开始git flow测试 develop2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Spring Boot.DemoRedisInActionApplication">
     <configuration name="CookieController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -230,10 +227,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1597053179262" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1597052511179">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1597063324099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597052511179" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597063324099" />
     <state width="604" height="446" key="SwitcherDM" timestamp="1596939428262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
