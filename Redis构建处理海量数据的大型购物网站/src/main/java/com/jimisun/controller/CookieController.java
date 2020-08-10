@@ -134,5 +134,7 @@ public class CookieController {
         return request.getRequestURI();
     }
 
-
+    public void newFeature(){
+        System.out.println("新开发的功能");
+    }
 }
