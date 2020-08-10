@@ -135,7 +135,7 @@ public class CookieController {
     }
 
     public void gitFlowTest(){
-        System.out.println("对于");
+        System.out.println("对于develop2的更新");
     }
 
 }
