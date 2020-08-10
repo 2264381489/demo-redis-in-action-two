@@ -135,4 +135,8 @@ public class CookieController {
     }
 
 
+    public static void  NewGitFlow(){
+        System.out.println("新的功能");
+    }
+
 }
