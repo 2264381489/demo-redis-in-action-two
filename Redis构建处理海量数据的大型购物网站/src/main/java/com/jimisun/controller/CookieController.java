@@ -138,4 +138,7 @@ public class CookieController {
         System.out.println("对于develop2的更新");
     }
 
+    public void newFeature(){
+        System.out.println("新开发的功能");
+    }
 }
