@@ -30,7 +30,7 @@ import java.util.Map;
  * @since 1.0.0
  */
 @Controller
-@RequestMapping("/cart")
+//@RequestMapping("/cart")
 public class CartController {
 
     @Autowired

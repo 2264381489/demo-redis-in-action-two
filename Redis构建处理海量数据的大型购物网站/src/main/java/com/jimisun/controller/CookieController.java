@@ -33,7 +33,7 @@ import java.util.UUID;
  * @since 1.0.0
  */
 @Controller
-@RequestMapping("/cookie")
+//@RequestMapping("/cookie")
 public class CookieController {
 
     private static Map<String, User> userFactory = new HashMap<>();

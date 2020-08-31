@@ -18,16 +18,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6431ff4-0a02-4511-baa5-62b4fccf27e2" name="Default Changelist" comment="开始git flow测试 develop2" />
+    <list default="true" id="b6431ff4-0a02-4511-baa5-62b4fccf27e2" name="Default Changelist" comment="开始git flow测试 develop2">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/shoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/resources/templates/fail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/demo-redis-in-action-two.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/demo-redis-in-action-two.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/CookieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/java/com/jimisun/controller/CookieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Redis构建处理海量数据的大型购物网站/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +72,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -63,6 +82,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -70,9 +90,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoRedisInActionApplication">
+  <component name="RunManager" selected="Spring Boot.DemoRedisInActionTwoApplication">
     <configuration name="CookieController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jimisun.controller.CookieController" />
       <module name="demo-redis-in-action-two" />
@@ -126,7 +146,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3708fdce-9316-4469-a338-666f40b9f5b1" name="Default Changelist" comment="" />
+      <changelist id="b6431ff4-0a02-4511-baa5-62b4fccf27e2" name="Default Changelist" comment="开始git flow测试 develop2" />
       <created>1596887974297</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -138,6 +158,9 @@
       <workItem from="1597043290001" duration="6613000" />
       <workItem from="1597052217802" duration="291000" />
       <workItem from="1597052575837" duration="825000" />
+      <workItem from="1598701645693" duration="431000" />
+      <workItem from="1598834821502" duration="6441000" />
+      <workItem from="1598841352455" duration="8318000" />
     </task>
     <task id="LOCAL-00001" summary="开始git flow测试">
       <created>1597051445065</created>
@@ -204,50 +227,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597051320591" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597053410515">
+    <state width="660" height="168" key="GridCell.Tab.0.bottom" timestamp="1598856436247">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597053410515" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597053410515">
+    <state width="660" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598856436247" />
+    <state width="660" height="168" key="GridCell.Tab.0.center" timestamp="1598856436247">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597053410515" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597053410515">
+    <state width="660" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598856436247" />
+    <state width="660" height="168" key="GridCell.Tab.0.left" timestamp="1598856436246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597053410515" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597053410515">
+    <state width="660" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598856436246" />
+    <state width="660" height="168" key="GridCell.Tab.0.right" timestamp="1598856436247">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597053410515" />
-    <state width="661" height="179" key="GridCell.Tab.1.bottom" timestamp="1597052078871">
+    <state width="660" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598856436247" />
+    <state width="660" height="168" key="GridCell.Tab.1.bottom" timestamp="1598856436248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597052078871" />
-    <state width="661" height="179" key="GridCell.Tab.1.center" timestamp="1597052078871">
+    <state width="660" height="168" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598856436248" />
+    <state width="660" height="168" key="GridCell.Tab.1.center" timestamp="1598856436248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597052078871" />
-    <state width="661" height="179" key="GridCell.Tab.1.left" timestamp="1597052078870">
+    <state width="660" height="168" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598856436248" />
+    <state width="660" height="168" key="GridCell.Tab.1.left" timestamp="1598856436247">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597052078870" />
-    <state width="661" height="179" key="GridCell.Tab.1.right" timestamp="1597052078871">
+    <state width="660" height="168" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598856436247" />
+    <state width="660" height="168" key="GridCell.Tab.1.right" timestamp="1598856436248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597052078871" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1597053179262">
+    <state width="660" height="168" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598856436248" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1598843407748">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1597053179262" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1597063324099">
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1598843407748" />
+    <state x="254" y="179" key="Registry" timestamp="1598856251689">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597063324099" />
-    <state width="604" height="446" key="SwitcherDM" timestamp="1596939428262">
+    <state x="254" y="179" key="Registry/0.0.1366.728@0.0.1366.728" timestamp="1598856251689" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1598856222455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="604" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1596939428262" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598856222455" />
+    <state width="604" height="477" key="SwitcherDM" timestamp="1598837554766">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="604" height="477" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1598837554766" />
     <state x="402" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597052355790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
